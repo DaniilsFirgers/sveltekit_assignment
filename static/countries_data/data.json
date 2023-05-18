@@ -1,0 +1,34 @@
+{
+  "countries": [
+    {
+      "name": "Canada",
+      "flag_url": "/flags/canada.png",
+      "population": 38250000,
+      "sightseeing_places": [
+        {
+          "name": "Niagara Falls",
+          "picture_url": "/sightseeing_places/canada/niagara_falls.png"
+        },
+        {
+          "name": "Banff national Park",
+          "picture_url": "/sightseeing_places/canada/niagara_falls.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Italy",
+      "flag_url": "/flags/italy.png",
+      "population": 58853482,
+      "sightseeing_places": [
+        {
+          "name": "Niagara Falls",
+          "picture_url": "/sightseeing_places/canada/niagara_falls.png"
+        },
+        {
+          "name": "Banff national Park",
+          "picture_url": "/sightseeing_places/canada/niagara_falls.jpeg"
+        }
+      ]
+    }
+  ]
+}
