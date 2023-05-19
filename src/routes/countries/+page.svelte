@@ -15,7 +15,7 @@
   {#await countries_list}
     <h1>Waiting for countries data...</h1>
   {:then countries}
-    <div class="flex justify-center items-center grid grid-cols-2 gap-10 p-2">
+    <div class="flex justify-center items-center grid grid-cols-2 gap-10 p-3">
       {#each countries as country}
         <CountryCard countryName={country.name} imgUrl={country.flag_url} />
       {/each}
