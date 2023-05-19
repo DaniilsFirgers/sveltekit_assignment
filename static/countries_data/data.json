@@ -2,31 +2,65 @@
   "countries": [
     {
       "name": "Canada",
+      "capital": "Ottawa",
       "flag_url": "/flags/canada.png",
       "population": 38250000,
       "sightseeing_places": [
         {
           "name": "Niagara Falls",
-          "picture_url": "/sightseeing_places/canada/niagara_falls.png"
+          "picture_url": "/sightseeing_places/canada/niagara-falls.png"
         },
         {
           "name": "Banff national Park",
-          "picture_url": "/sightseeing_places/canada/niagara_falls.jpeg"
+          "picture_url": "/sightseeing_places/canada/banff-national-park.jpeg"
         }
       ]
     },
     {
       "name": "Italy",
+      "capital": "Rome",
       "flag_url": "/flags/italy.png",
       "population": 58853482,
       "sightseeing_places": [
         {
-          "name": "Niagara Falls",
-          "picture_url": "/sightseeing_places/canada/niagara_falls.png"
+          "name": "The Roman Colosseum",
+          "picture_url": "/sightseeing_places/italy/roman-colosseum.jpg"
         },
         {
-          "name": "Banff national Park",
-          "picture_url": "/sightseeing_places/canada/niagara_falls.jpeg"
+          "name": "The Leanning Tower of Pisa",
+          "picture_url": "/sightseeing_places/italy/leaning-tower-of-pisa.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Mexico",
+      "capital": "Mexico City",
+      "flag_url": "/flags/mexico.png",
+      "population": 126700000,
+      "sightseeing_places": [
+        {
+          "name": "Chichen Itza",
+          "picture_url": "/sightseeing_places/mexico/chichen-itza.jpg"
+        },
+        {
+          "name": "Nevado de Toluca",
+          "picture_url": "/sightseeing_places/mexico/nevado-de-toluca.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Japan",
+      "capital": "Tokyo",
+      "flag_url": "/flags/japan.png",
+      "population": 125700000,
+      "sightseeing_places": [
+        {
+          "name": "Mount Fuji",
+          "picture_url": "/sightseeing_places/japan/mount-fuji.jpeg"
+        },
+        {
+          "name": "Himeji Castle",
+          "picture_url": "/sightseeing_places/japan/himeji-castle.jpg"
         }
       ]
     }
