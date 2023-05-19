@@ -63,6 +63,38 @@
           "picture_url": "/sightseeing_places/japan/himeji-castle.jpg"
         }
       ]
+    },
+    {
+      "name": "South Africa",
+      "capital": "Pretoria",
+      "flag_url": "/flags/south-africa.png",
+      "population": 59390000,
+      "sightseeing_places": [
+        {
+          "name": "Kruger National Park",
+          "picture_url": "/sightseeing_places/south-africa/kruger-national-park.jpg"
+        },
+        {
+          "name": "Johannesburg",
+          "picture_url": "/sightseeing_places/south-africa/johannesburg.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Latvia",
+      "capital": "Riga",
+      "flag_url": "/flags/latvia.svg",
+      "population": 1884000,
+      "sightseeing_places": [
+        {
+          "name": "Venta Waterfall",
+          "picture_url": "/sightseeing_places/latvia/venta-waterfall.jpeg"
+        },
+        {
+          "name": "Old City of Riga",
+          "picture_url": "/sightseeing_places/latvia/venta-waterfall.jpg"
+        }
+      ]
     }
   ]
 }
