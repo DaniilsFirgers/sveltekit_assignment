@@ -24,11 +24,13 @@
       "sightseeing_places": [
         {
           "name": "The Roman Colosseum",
-          "picture_url": "/sightseeing_places/italy/roman-colosseum.jpg"
+          "picture_url": "/sightseeing_places/italy/roman-colloseum.jpg",
+          "description": "The Colosseum, also named the Flavian Amphitheater, is a large amphitheater in Rome. It was built during the reign of the Flavian emperors as a gift to the Roman people."
         },
         {
           "name": "The Leanning Tower of Pisa",
-          "picture_url": "/sightseeing_places/italy/leaning-tower-of-pisa.jpg"
+          "picture_url": "/sightseeing_places/italy/leaning-tower-of-pisa.jpg",
+          "description": "The Leaning Tower of Pisa, also known as the Torre Pendente di Pisa, is a freestanding bell tower for the cathedral in Pisa, Italy. It is one of Italy's most renowned tourist destinations and is recognized as one of the most impressive architectural buildings from medieval Europe"
         }
       ]
     },
@@ -92,7 +94,7 @@
         },
         {
           "name": "Old City of Riga",
-          "picture_url": "/sightseeing_places/latvia/venta-waterfall.jpg"
+          "picture_url": "/sightseeing_places/latvia/old-riga.jpg"
         }
       ]
     }
