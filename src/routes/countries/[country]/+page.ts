@@ -1,13 +1,21 @@
 import axios from "axios";
 import type { PageLoad } from "./$types";
-import { countriesStore } from "../../../stores/countries";
+import { error } from "@sveltejs/kit";
 
-export const load: PageLoad = async ({ params }): Promise<any> => {
+export const load: PageLoad = async ({ params }): Promise<Country> => {
   const country: string = params.country;
+  const countries = await axios.get("/countries_info");
+  const data: CountriesResponse = countries.data;
+  const filteredCountry = data.countries.find(
+    (el) => el.name.toLocaleLowerCase() === country
+  );
 
-  const countries = await axios.get("/static/countries/data.json");
-
-  console.log(countries.data);
-
+  if (!filteredCountry) {
+    throw error(404, {
+      message: "Not found",
+    });
+  }
+  console.log("heh", filteredCountry);
+  return filteredCountry;
   //   return user;
 };
