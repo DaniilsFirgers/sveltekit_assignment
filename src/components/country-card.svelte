@@ -16,5 +16,9 @@
   <h1 class="text-lg font-medium text-center text-primary-focus">
     {countryName}
   </h1>
-  <img src={imgUrl} alt={`${countryName}-flag`} class="h-40 w-80 rounded-lg" />
+  <img
+    src={imgUrl}
+    alt={`${countryName}-flag`}
+    class="h-40 w-80 rounded-lg border"
+  />
 </div>
