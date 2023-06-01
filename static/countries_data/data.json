@@ -8,11 +8,13 @@
       "sightseeing_places": [
         {
           "name": "Niagara Falls",
-          "picture_url": "/sightseeing_places/canada/niagara-falls.png"
+          "picture_url": "/sightseeing_places/canada/niagara-falls.png",
+          "description": "A group of three waterfalls at the southern end of Niagara Gorge, spanning the border between the province of Ontario in Canada and the state of New York in the United States. The largest of the three is Horseshoe Falls, which straddles the international border of the two countries."
         },
         {
           "name": "Banff national Park",
-          "picture_url": "/sightseeing_places/canada/banff-national-park.jpeg"
+          "picture_url": "/sightseeing_places/canada/banff-national-park.jpeg",
+          "description": "Canada’s first national park, established in 1885. From Banff’s humble beginnings as a 26 square kilometre hot springs reserve, Banff National Park now consists of 6,641 square kilometres of unparalleled mountain scenery nestled in the heart of the magnificent Canadian Rockies."
         }
       ]
     },
@@ -42,11 +44,13 @@
       "sightseeing_places": [
         {
           "name": "Chichen Itza",
-          "picture_url": "/sightseeing_places/mexico/chichen-itza.jpg"
+          "picture_url": "/sightseeing_places/mexico/chichen-itza.jpg",
+          "description": "Was a large pre-Columbian city built by the Maya people of the Terminal Classic period. The archeological site is located in Tinúm Municipality, Yucatán State, Mexico."
         },
         {
           "name": "Nevado de Toluca",
-          "picture_url": "/sightseeing_places/mexico/nevado-de-toluca.jpg"
+          "picture_url": "/sightseeing_places/mexico/nevado-de-toluca.jpg",
+          "description": "A stratovolcano in central Mexico, located about 80 kilometres (50 mi) west of Mexico City near the city of Toluca. It is the fourth highest of Mexico's peaks, after Pico de Orizaba, Popocatépetl and Iztaccíhuatl. The volcano and the area around it is now a national park."
         }
       ]
     },
@@ -58,11 +62,13 @@
       "sightseeing_places": [
         {
           "name": "Mount Fuji",
-          "picture_url": "/sightseeing_places/japan/mount-fuji.jpeg"
+          "picture_url": "/sightseeing_places/japan/mount-fuji.jpeg",
+          "description": "Located on the island of Honshū, is an active stratovolcano in Japan, with a summit elevation of 3,776.24 m (12,389 ft 3 in). It is the second-highest volcano located on an island in Asia (after Mount Kerinci on the island of Sumatra), and seventh-highest peak of an island on Earth."
         },
         {
           "name": "Himeji Castle",
-          "picture_url": "/sightseeing_places/japan/himeji-castle.jpg"
+          "picture_url": "/sightseeing_places/japan/himeji-castle.jpg",
+          "description": "A hilltop Japanese castle complex situated in the city of Himeji which is located in the Hyōgo Prefecture of Japan. The castle is regarded as the finest surviving example of prototypical Japanese castle architecture, comprising a network of 83 rooms with advanced defensive systems from the feudal period."
         }
       ]
     },
@@ -74,11 +80,13 @@
       "sightseeing_places": [
         {
           "name": "Kruger National Park",
-          "picture_url": "/sightseeing_places/south-africa/kruger-national-park.jpg"
+          "picture_url": "/sightseeing_places/south-africa/kruger-national-park.jpg",
+          "description": "A South African National Park and one of the largest game reserves in Africa. It covers an area of 19,623 km2 (7,576 sq mi) in the provinces of Limpopo and Mpumalanga in northeastern South Africa, and extends 360 km (220 mi) from north to south and 65 km (40 mi) from east to west."
         },
         {
           "name": "Johannesburg",
-          "picture_url": "/sightseeing_places/south-africa/johannesburg.jpg"
+          "picture_url": "/sightseeing_places/south-africa/johannesburg.jpg",
+          "description": "Is the most populous city in South Africa, classified as a megacity; it is one of the 100 largest urban areas in the world."
         }
       ]
     },
@@ -90,11 +98,13 @@
       "sightseeing_places": [
         {
           "name": "Venta Waterfall",
-          "picture_url": "/sightseeing_places/latvia/venta-waterfall.jpeg"
+          "picture_url": "/sightseeing_places/latvia/venta-waterfall.jpeg",
+          "description": "The Venta Rapid is the widest waterfall in Europe, which in spring and autumn offers a view on flying fish.The width of the waterfall is around 100—110 metres, while its height is 1.8—2 metres."
         },
         {
           "name": "Old City of Riga",
-          "picture_url": "/sightseeing_places/latvia/old-riga.jpg"
+          "picture_url": "/sightseeing_places/latvia/old-riga.jpg",
+          "description": "Vecrīga is the original area of Riga and consists of the historic city limits before the city was greatly expanded in the late 19th century. Vecrīga was once protected by a surrounding wall, except the side adjacent to the Daugava river bank."
         }
       ]
     }
