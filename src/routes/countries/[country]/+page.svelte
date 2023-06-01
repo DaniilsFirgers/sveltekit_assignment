@@ -8,7 +8,11 @@
 
 <main>
   <div class="flex justify-center items-center h-fit">
-    <img src={country.flag_url} alt="" class="h-20 w-40 rounded-lg" />
+    <img
+      src={country.flag_url}
+      alt=""
+      class="h-20 w-40 rounded-lg border border-base-200"
+    />
   </div>
   <div class="pt-10 flex gap-10 justify-center items-center">
     <h1 class="text-xl">Country: {country.name}</h1>
