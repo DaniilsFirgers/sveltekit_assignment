@@ -2,7 +2,9 @@
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install`, add path to dev_configs/server.conf to /etc/nginx/nginx.conF under http block as include path to dev_configs/server.conf or move server.conf to sites-available and then link the config to sites-enabled. Then add travelcenter.net to /etc/hosts under localhost. After you can tun the following command:
+Once you've created a project and installed dependencies with `npm install`.
+Then add dev_configs/server.conf path to /etc/nginx/nginx.conf under http block as include path to dev_configs/server.conf or move server.conf to sites-available and then link the config to sites-enabled.
+Then add travelcenter.net to /etc/hosts below localhost. After you can tun the following command:
 
 ```bash
 npm run dev
