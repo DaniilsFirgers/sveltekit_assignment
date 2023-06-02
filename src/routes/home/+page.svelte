@@ -4,46 +4,61 @@
   import { notesStore } from "../../stores/notes";
   import SubmitForm from "../../components/submit-form.svelte";
 
-  let notes = getNotes();
+  let notes: any[] = [];
   async function getNotes() {
-    const res = await $notesStore;
-    return res.notes;
+    const res = await axios.get("/notes_data");
+    const data = await res.data;
+
+    notes = data.notes;
   }
 
   async function handelOnDeleteNote(note: any) {
-    console.log("sadsdasd");
-    await axios.delete("/api", { data: note });
+    axios.delete("/api", { data: note }).then(async () => {
+      await getNotes();
+    });
   }
   getNotes();
 </script>
 
-<main class="flex flex-col justify-center items-center">
-  <div class="flex">
-    <h1>My travelling notes:</h1>
-    <label for="my_modal_6" class="btn">open modal</label>
+<div class="flex flex-col justify-center items-center">
+  <div class="flex items-center justify-between gap-5 mb-2">
+    <h1>Travelling notes</h1>
+    <label
+      for="my_modal_6"
+      class="border rounded-lg p-1 cursor-pointer bg-base-200">Add Note</label
+    >
   </div>
 
-  {#await notes}
-    <h1>Waiting for countries data...</h1>
-  {:then notes}
-    <div class="border rounded-lg w-fit p-5">
+  {#if notes.length === 0}
+    <h1>Currently there are no notes...</h1>
+  {:else}
+    <div
+      class="border rounded-lg w-fit p-5 max-h-96 overflow-x-auto bg-base-200 border-secondary"
+    >
       {#each notes as note}
-        <div class="border mb-3 p-2 rounded-lg w-80 flex">
+        <div
+          class="border mb-3 p-2 rounded-lg w-80 flex items-center bg-base-300 border-accent-focus"
+        >
           <div class="flex-grow">
             <h1>Title: {note.name}</h1>
             <p>{note.note}</p>
           </div>
-          <button on:click={() => handelOnDeleteNote(note)}>Delete</button>
+          <button
+            on:click={() => handelOnDeleteNote(note)}
+            class="rounded-lg border h-8 p-1 bg-red-400">Delete</button
+          >
         </div>
       {/each}
     </div>
-  {/await}
+  {/if}
 
   <!-- Put this part before </body> tag -->
   <input type="checkbox" id="my_modal_6" class="modal-toggle" />
   <div class="modal">
     <div class="modal-box p-0 relative">
-      <label for="my_modal_6" class="rounded rounded-full p-1 absolute right-1"
+      <label
+        for="my_modal_6"
+        class="rounded rounded-full p-1 absolute right-1 cursor-pointer"
         >X</label
       >
 
@@ -54,4 +69,4 @@
       </div>
     </div>
   </div>
-</main>
+</div>
