@@ -4,7 +4,7 @@ import { goto } from "$app/navigation";
 
 async function initialize(): Promise<any> {
   try {
-    const res = await axios.get("/notes");
+    const res = await axios.get("/notes_data");
     const statusCode = res.status;
     if (statusCode === 200) {
       return res.data;
