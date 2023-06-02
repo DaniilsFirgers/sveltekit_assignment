@@ -15,7 +15,5 @@ export const load: PageLoad = async ({ params }): Promise<Country> => {
       message: "Not found",
     });
   }
-  console.log("heh", filteredCountry);
   return filteredCountry;
-  //   return user;
 };
