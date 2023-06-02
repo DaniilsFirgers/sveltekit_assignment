@@ -8,10 +8,9 @@ Then add travelcenter.net to /etc/hosts below localhost. After you can tun the f
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
+
+After that you can navigate to http://travelcenter.net
 
 ## Building
 
