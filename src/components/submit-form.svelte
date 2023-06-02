@@ -35,7 +35,9 @@
   };
 </script>
 
-<div class="border rounded-lg bg-base-300 flex w-96 flex flex-col items-center">
+<div
+  class="border rounded-lg bg-secondary-focus flex w-96 flex flex-col items-center"
+>
   <form
     method="POST"
     on:submit={handleSubmit}
@@ -43,20 +45,20 @@
   >
     <div class="flex flex-col w-72">
       <label for="name"> Name </label>
-      <input name="name" class="rounded-lg" />
+      <input name="name" class="rounded-lg px-2" />
       {#if errors.fieldErrors.name}
         <span>
-          <p class="text-error">{errors.fieldErrors.name[0]}</p>
+          <p class="text-red-500">{errors.fieldErrors.name[0]}</p>
         </span>
       {/if}
     </div>
     <div class="flex flex-col w-72">
       <label for="note"> Desription </label>
-      <textarea name="note" class="rounded-lg" />
+      <textarea name="note" class="rounded-lg px-2" />
     </div>
     {#if errors.fieldErrors.note}
       <span>
-        <p class="text-error">{errors.fieldErrors.note[0]}</p>
+        <p class="text-red-500">{errors.fieldErrors.note[0]}</p>
       </span>
     {/if}
     <div class="py-1">
